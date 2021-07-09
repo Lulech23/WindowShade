@@ -568,7 +568,7 @@ if (($task -eq 1) -Or ($task -eq 2)) {
                 "`n	<Actions Context=`"Author`">" +
                 "`n		<Exec>" +
                 "`n			<Command>powershell</Command>" +
-                "`n			<Arguments>-NoProfile -ExecutionPolicy Bypass -File `"$env:AppData\WindowShade\wsservice.ps1`" `"$path\$profile 0.icc`" `"$path\$profile 25.icc`" `"$path\$profile 50.icc`" `"$path\$profile 75.icc`" `"$path\$profile 100.icc`"</Arguments>" +
+                "`n			<Arguments>-NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File `"$env:AppData\WindowShade\wsservice.ps1`" `"$path\$profile 0.icc`" `"$path\$profile 25.icc`" `"$path\$profile 50.icc`" `"$path\$profile 75.icc`" `"$path\$profile 100.icc`"</Arguments>" +
                 "`n		</Exec>" +
                 "`n	</Actions>" +
                 "`n</Task>"
