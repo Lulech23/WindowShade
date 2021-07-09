@@ -54,4 +54,4 @@ Just run the installer again--uninstalling first isn't necessary!
 11. An \*.icz package will be created, ready for installation
 
 ## Known Issues
-* **None for now! Hooray!**
+* Console window briefly flashes at startup if WindowShade Service is installed
